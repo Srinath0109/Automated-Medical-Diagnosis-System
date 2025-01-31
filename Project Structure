@@ -1,0 +1,18 @@
+MedicalDiagnosisSystem/
+│── backend/                  
+│   │── models/               
+│   │   ├── model_train.py      # Trains the ML model
+│   │   ├── predict.py          # Predicts diseases from input
+│   │── database/              
+│   │   ├── db.py               # Manages patient records
+│   │── main.py                 # Flask API for diagnosis
+│   │── config.py               # Configuration settings
+│── frontend/                  
+│   │── static/                
+│   │── templates/              
+│   │   ├── index.html          # Web UI for diagnosis
+│   │── app.py                  # Runs Flask-based UI
+│── dataset/                    # Medical datasets (CSV files)
+│── models/                      # Trained ML models
+│── requirements.txt            
+│── README.md                  
